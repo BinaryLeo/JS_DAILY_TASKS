@@ -1,0 +1,186 @@
+body {
+  padding: 0;
+  background: url("https://images.unsplash.com/photo-1521794414102-37606728dd9c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=871&q=80")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Titillium Web", sans-serif;
+  margin: 50px auto;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ------------ container ------------ */
+.container {
+  padding: 10px;
+  width: 380px;
+  margin: 0 auto;
+  box-shadow: 0 10px 10px -2px #01bee0;
+}
+/* ------------ header ------------ */
+.header {
+  width: 380px;
+  height: 200px;
+  background-image: url("../img/bg.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 15px 15px 0 0;
+  position: relative;
+}
+.clear {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.clear i {
+  font-size: 30px;
+  color: #fff;
+}
+.clear i:hover {
+  cursor: pointer;
+  text-shadow: 1px 3px 5px #13cde7;
+  transform: rotate(45deg);
+}
+#date {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #fff;
+  padding: 5px 1em 0 1em;
+  text-shadow: 2px 2px #0a0a0a;
+  background-color: #f66d7c;
+  /* Fallback for web browsers that don't support RGBa */
+  background-color: rgb(246, 109, 124);
+  /* RGBa with 0.4 opacity */
+  background-color: rgba(246, 109, 124, 0.4);
+  font-size: 25px;
+  font-family: "Titillium Web", sans-serif;
+}
+
+/* ------------ content ------------ */
+.content {
+  width: 380px;
+  height: 350px;
+  max-height: 350px;
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(27, 38, 40, 1) 11.2%,
+    rgba(49, 47, 41, 1) 91.1%
+  );
+  overflow: auto;
+}
+.content::-webkit-scrollbar {
+  display: none;
+}
+.content ul {
+  padding: 0;
+  margin: 0;
+}
+.item {
+  width: 380px;
+  height: 45px;
+  min-height: 45px;
+  position: relative;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #ffca28;
+  box-shadow: 0 2px 2px -2px #01bee0;
+}
+.item i.co {
+  position: absolute;
+  font-size: 25px;
+  padding-left: 5px;
+  left: 15px;
+  top: 10px;
+}
+#addme:hover {
+  transform: scale(0.8);
+}
+
+.item i.co:hover {
+  cursor: pointer;
+}
+.fa-check-circle {
+  color: #ffca28;
+}
+.item p.text {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  left: 50px;
+  top: 5px;
+  background-color: transparent;
+  max-width: 285px;
+  color: #ffca28;
+}
+.lineThrough {
+  text-decoration: line-through;
+  color: #ffca28;
+}
+.item i.de {
+  position: absolute;
+  font-size: 25px;
+  right: 15px;
+  top: 10px;
+}
+.item i.de:hover {
+  color: #ffca28;
+  cursor: pointer;
+}
+/* ------------ add item ------------ */
+.add-to-do {
+  position: relative;
+  width: 360px;
+  height: 40px;
+  background-color: #312f29;
+  padding: 10px;
+  border-top: 1px solid #07a8c5;
+}
+.add-to-do i {
+  position: absolute;
+  font-size: 40px;
+  color: #ffca28;
+}
+
+.add-to-do input {
+  position: absolute;
+  left: 50px;
+  height: 35px;
+  width: 310px;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  padding-left: 10px;
+  color: #ffca28;
+}
+.add-to-do input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #ffca28;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 20px;
+}
+.add-to-do input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #ffca28;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 20px;
+}
+.add-to-do input:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #ffca28;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 20px;
+}
+.add-to-do input:-moz-placeholder {
+  /* Firefox 18- */
+  color: #ffca28;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 20px;
+}
