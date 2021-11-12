@@ -105,7 +105,7 @@ document.addEventListener("keyup", function (event) {
       });
 
       //* add item to localStorage ( this code must be added where the LIST array is updated)
-      localStorage.setItem("TODO", JSON.stringify(LIST));
+      localStorage.setItem("DailyTasks", JSON.stringify(LIST));
 
       id++;
     }
