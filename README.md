@@ -1,5 +1,8 @@
 # JS_DAILY_TASKS
-A Daily Task list app with Vanilla JS
+A Daily Task list app with Vanilla JS.
+
+Click below and access the project by GitHub Pages:
+https://binaryleo.github.io/JS_DAILY_TASKS/
 
 ![Animação](https://user-images.githubusercontent.com/72607039/141229197-548f4d0c-23ba-4524-a159-74dee757d4e3.gif)
 
